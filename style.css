@@ -23,7 +23,9 @@ body {
 header,
 section,
 main,
-.computerMonitor {
+.computerMonitor,
+ul
+{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -31,7 +33,7 @@ main,
 }
 
 main,
-section {
+section, ul {
 	flex-direction: column;
 }
 
@@ -54,6 +56,11 @@ section {
 	max-width: 80vw;
 	color: var(--black);
 }
+
+ul{
+	gap: .2rem;
+}
+
 li{
 list-style: none;
 }
@@ -68,6 +75,7 @@ list-style: none;
 
 	background-color: black;
 	color: white;
+	gap: .5rem;
 }
 
 .computerCase {
@@ -75,7 +83,23 @@ list-style: none;
 	border-top-left-radius: 0.5rem;
 	border-top-right-radius: 0.5rem;
 
+	font-size: 1.4rem;
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
 	background-color: var(--orange);
+}
+
+img{
+width: 18%;
+height:80%; 
+}
+
+h1{
+	font-size: 2.5rem;
+}
+h2{
+	font-size: 2rem;
+}
+p{
+font-size: 1.2rem;
 }
