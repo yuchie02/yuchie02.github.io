@@ -1,3 +1,8 @@
+@font-face{
+font-family: "default";
+src: url('font.otf');
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -10,6 +15,7 @@ html {
 	--yellow: #FFC98B;
 	--darkYellow: #FF9925;
 	--orange: #FF7325;
+	font-family: 'default';
 }
 
 
@@ -43,8 +49,14 @@ header {
 	background-color: var(--darkYellow);
 }
 
+header img{
+width: 5vw;
+height: 5vw;
+}
+
 main {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 	gap: 1rem;
 }
 
